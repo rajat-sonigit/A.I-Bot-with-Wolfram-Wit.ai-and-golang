@@ -59,7 +59,7 @@ If an error occurs while fetching data, the bot logs the issue and informs the u
 Dependencies
 Slacker: For interacting with Slack.
 Wit.ai: For natural language processing.
-Wolfram Alpha API: For computational knowledge retrieval.
+Wolfram Alpha API - For computational knowledge retrieval.
 GJSON: For parsing JSON responses.
 Godotenv: For managing environment variables.
 Future Enhancements
