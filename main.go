@@ -6,7 +6,6 @@ import (
 	"fmt"
 	"log"
 	"os"
-
 	"github.com/Edw590/go-wolfram"
 	"github.com/joho/godotenv"
 	"github.com/shomali11/slacker"
