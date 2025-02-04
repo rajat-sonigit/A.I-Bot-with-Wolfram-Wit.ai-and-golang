@@ -11,6 +11,7 @@ import (
 	"github.com/tidwall/gjson"
 	witai "github.com/wit-ai/wit-go"
 )
+
 var wolframClient *wolfram.Client
 func printCommandEvents(analyticsChannel <-chan *slacker.CommandEvent) {
 	for event := range analyticsChannel {
