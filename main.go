@@ -24,6 +24,7 @@ func printCommandEvents(analyticsChannel <-chan *slacker.CommandEvent) {
 }
 	
 }
+
 func main() {
 	err := godotenv.Load(".env")
 	if err != nil {
