@@ -20,8 +20,7 @@ func printCommandEvents(analyticsChannel <-chan *slacker.CommandEvent) {
 		fmt.Println(event.Parameters)
 		fmt.Println(event.Event)
 		fmt.Println()
-}
-	
+}	
 }
 
 func main() {
